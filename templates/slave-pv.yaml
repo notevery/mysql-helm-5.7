@@ -20,7 +20,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - arkos-master04
+          - arkos-node04
   persistentVolumeReclaimPolicy: Delete
   storageClassName: prometheus
   volumeMode: Filesystem
